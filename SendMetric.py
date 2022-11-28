@@ -1,6 +1,6 @@
 import boto3
 
-def send_function(event, context):
+def lambda_handler(event, context):
 #some names can be customized 
     valu=event['VAL']
     mname=event['MNAM']
